@@ -9,9 +9,12 @@
 @import url('../twentyseventeen/style.css');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
 
+
+h3 {
+	font-size: 1em;
+	color: #067375;
+}
+
 .site-content-contain {
     background-color: #cde6dc;
-
-
-font-family: Josefin+Sans;
 

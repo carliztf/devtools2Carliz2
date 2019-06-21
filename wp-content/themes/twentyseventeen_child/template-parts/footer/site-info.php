@@ -15,7 +15,7 @@
 		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 	}
 	?>
-	<h3 class="imprint">&copy;Carla</h3>
+	<h3 class="imprint"> 2019 &copy;Carla. All rights reserved</h3>
 	<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>" class="imprint">
 		<?php printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' ); ?>
 	</a> -->
