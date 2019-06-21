@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Description:  Twenty Seventeen Child Theme
+ Author:       Carla Torres
+ Template:     twentyseventeen
+ Version:      1.0.0
+*/
+
+@import url('../twentyseventeen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
+
+.site-content-contain {
+    background-color: #cde6dc;
+
+
+font-family: Josefin+Sans;
+
