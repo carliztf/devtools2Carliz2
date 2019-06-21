@@ -9,6 +9,7 @@
 @import url('../twentyseventeen/style.css');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
 
+/*font-family: 'Josefin Sans, Montserrat;*/
 
 h3 {
 	font-size: 1em;
@@ -17,4 +18,13 @@ h3 {
 
 .site-content-contain {
     background-color: #cde6dc;
+}
 
+.main-navigation a:hover {
+    color: #519197;
+}
+
+.entry-title a {
+	font-family: Josefin+Sans;
+	color: #389480;
+}

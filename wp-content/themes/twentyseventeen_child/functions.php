@@ -1,4 +1,5 @@
 <?php
+
 function my_theme_enqueue_styles () {
 
 $parent_style = 'twentyseventeen-style'; // this is 'twentyseventeen-style' forthe Twenty Seventeen theme.
@@ -9,7 +10,8 @@ wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' ); 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 function wpb_add_google_fonts() {
-	wp_enqueue_style( 'wpb-google-fonts','https://fonts.googleapis.com/css?
+
+wp_enqueue_style( 'wpb-google-fonts','https://fonts.googleapis.com/css?
 		family=Josefin+Sans|Montserrat&display=swap ', false);
 }
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );

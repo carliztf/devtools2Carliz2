@@ -2,6 +2,7 @@
 /**
  * The template for displaying home page
  *
+ *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
