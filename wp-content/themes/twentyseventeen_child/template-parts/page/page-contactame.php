@@ -1,7 +1,11 @@
 <?php
 /**
- * Template Name: notitle.php
- * This template is for a basic page with no title at the top.
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -17,11 +21,11 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<!--	<?php
+			<?php
 			while ( have_posts() ) :
 				the_post();
 
-				get_template_part( 'template-parts/page/content', 'page' );
+				get_template_part( 'template-parts/page/content', 'contactame' );
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
@@ -29,7 +33,7 @@ get_header(); ?>
 				endif;
 
 			endwhile; // End of the loop.
-			?> <!--> <!-- removing the title "about me" from the page -->
+			?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

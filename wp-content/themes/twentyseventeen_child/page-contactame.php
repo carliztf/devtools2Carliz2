@@ -1,7 +1,11 @@
 <?php
 /**
- * Template Name: notitle.php
- * This template is for a basic page with no title at the top.
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -29,7 +33,7 @@ get_header(); ?>
 				endif;
 
 			endwhile; // End of the loop.
-			?> <!--> <!-- removing the title "about me" from the page -->
+			?> <!--><!-- I comment this because I remove the title from the page -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

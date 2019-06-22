@@ -7,9 +7,15 @@
 */
 
 @import url('../twentyseventeen/style.css');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Marck+Script|Montserrat&display=swap');
 
-/*font-family: 'Josefin Sans, Montserrat;*/
+/*font-family: Josefin Sans, Montserrat, Marck Script;*/
+
+h2 {
+	font-family: Marck Script;
+	color:teal;
+	font-size: 40px;
+}
 
 h3 {
 	font-size: 1em;
@@ -21,10 +27,38 @@ h3 {
 }
 
 .main-navigation a:hover {
-    color: #519197;
+    color: teal;
 }
 
-.entry-title a {
-	font-family: Josefin+Sans;
-	color: #389480;
+.entry-content {
+	color: black;
+	font-family: Montserrat;
 }
+
+.navigation-top {
+	background-color: #df6667;
+}
+
+.main-navigation a {
+	color: white;
+	font-family: Josefin Sans;
+	font-size: 20px;
+}
+
+.main-navigation ul {
+	background-color: #df6667;
+}
+
+/*a {
+	font-family: Marck Script;
+}*/
+
+.site-title a, {
+	font-family:Montserrat;
+}
+
+.page-title {
+	font-family: Josefin Sans;
+	color: teal;
+}
+
