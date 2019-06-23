@@ -49,12 +49,12 @@ h3 {
 	background-color: #df6667;
 }
 
-/*a {
-	font-family: Marck Script;
-}*/
+a {
+	font-family: Josefin Sans;
+}
 
 .site-title a, {
-	font-family:Montserrat;
+	font-family: Montserrat;
 }
 
 .page-title {
@@ -62,3 +62,16 @@ h3 {
 	color: teal;
 }
 
+h2.widget-title {
+	color: #df6667;
+	font-size: 15px;
+}
+
+.entry-title a {
+	color: #df6667;
+}
+
+.single-post {
+	color: #df6667;
+	font-family: Josefin Sans;
+}
